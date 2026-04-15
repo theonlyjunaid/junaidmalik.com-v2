@@ -15,8 +15,8 @@ type HomeBlogPost = {
 };
 
 export const metadata: Metadata = {
-  title: "Manu Arora",
-  description: "Founder, Creator, YouTuber, Shitposter, and a Learner.",
+  title: "Junaid Malik",
+  description: "Full-Stack developer, JavaScript enthusiast, Freelancer and a Learner.",
   alternates: {
     canonical: "/",
   },
@@ -34,10 +34,10 @@ export default async function Home() {
       <Work />
       <DottedSeparator className="my-10" />
       <Companies />
-      <DottedSeparator className="my-10" />
-      <WorkWithMe />
-      <DottedSeparator className="my-10" />
-      <BlogList posts={posts} />
+      {/* <DottedSeparator className="my-10" />
+      <WorkWithMe /> */}
+      {/* <DottedSeparator className="my-10" />
+      <BlogList posts={posts} /> */}
       <DottedSeparator className="my-10" />
     </Container>
   );

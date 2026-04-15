@@ -42,7 +42,8 @@ export const WorkWithMe = () => {
   const work: WorkItem[] = [
     {
       title: "Consultation",
-      description: "Get on a paid call with me to discuss your things.",
+      description:
+        "Get on a paid call with me to discuss MVP scope, AI feasibility, and full-stack architecture for your product.",
       type: "link",
       href: "https://cal.com/manu-arora-lacvgj/hour",
       boxClassName:
@@ -52,25 +53,15 @@ export const WorkWithMe = () => {
       ),
     },
     {
-      title: "Hire me and my team",
-      description: "Let's build a world class website for your business.",
+      title: "Hire me",
+      description:
+        "Let's build a highly scalable, world-class web or React Native mobile application for your business.",
       type: "link",
       href: "https://aceternity.com",
       boxClassName:
         "bg-linear-to-b from-orange-400 to-orange-600 ring-offset-orange-500",
       skeleton: (
         <IconAppWindowFilled className="size-4 text-white drop-shadow-xl drop-shadow-black/40" />
-      ),
-    },
-    {
-      title: "Sponsor my video",
-      description: "Get your brand in front of my audience.",
-      type: "copyEmail",
-      email: "manu@aceternity.com",
-      boxClassName:
-        "bg-linear-to-b from-emerald-400 to-emerald-600 ring-offset-emerald-500",
-      skeleton: (
-        <IconVideoFilled className="size-4 text-white drop-shadow-xl drop-shadow-black/40" />
       ),
     },
   ];

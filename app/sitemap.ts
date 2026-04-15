@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllFilesFrontMatter } from "@/lib/mdx";
 
-const SITE_URL = "https://manuarora.in";
+const SITE_URL = "https://junaidmalik.com";
 
 type BlogFrontMatter = {
   slug: string;
@@ -19,14 +19,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${SITE_URL}/blog`,
     },
     {
-      url: `${SITE_URL}/tweets`,
+      url: `${SITE_URL}/projects`,
     },
     {
-      url: `${SITE_URL}/inspiration`,
+      url: `${SITE_URL}/experiences`,
     },
-    {
-      url: `${SITE_URL}/sponsor`,
-    },
+    // {
+    //   url: `${SITE_URL}/sponsor`,
+    // },
   ];
 
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({

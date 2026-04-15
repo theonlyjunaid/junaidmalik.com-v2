@@ -72,11 +72,6 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/projects",
-        destination: "/",
-        permanent: true,
-      },
-      {
         source: "/freecodecamp",
         destination: "/",
         permanent: true,

@@ -15,28 +15,28 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 const analyticsDomain = process.env.NEXT_PUBLIC_ANALYTICS_DOMAIN;
 const analyticsScriptUrl = process.env.NEXT_PUBLIC_ANALYTICS_SCRIPT_URL;
 
-const siteUrl = "https://manuarora.in";
+const siteUrl = "https://junaidmalik.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Manu Arora - Developer, writer, creator.",
-    template: "%s – Manu Arora",
+    default: "Junaid Malik - Developer, writer, creator.",
+    template: "%s – Junaid Malik",
   },
   description:
     "Full-Stack developer, JavaScript enthusiast, Freelancer and a Learner.",
   openGraph: {
-    title: "Manu Arora - Developer, writer, creator.",
+    title: "Junaid Malik - Developer, writer, creator.",
     description:
       "Full-Stack developer, JavaScript enthusiast, Freelancer and a Learner.",
     url: siteUrl,
-    siteName: "Manu Arora",
+    siteName: "Junaid Malik",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manu Arora - Developer, writer, creator.",
+    title: "Junaid Malik - Developer, writer, creator.",
     description:
       "Full-Stack developer, JavaScript enthusiast, Freelancer and a Learner.",
   },
