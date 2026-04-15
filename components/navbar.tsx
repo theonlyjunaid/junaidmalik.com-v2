@@ -18,7 +18,7 @@ const links = [
   { title: "Projects", href: "/projects" },
   { title: "Experiences", href: "/experiences" },
   // { title: "Blogs", href: "/blog" },
-  { title: "Resume", href: "https://docs.google.com/document/d/1yJm-KTbjOeKqIQ5tP48yw5s_83zxKvthA2Lm_DZ085I/edit?usp=sharing", blank: true },
+  // { title: "Resume", href: "https://docs.google.com/document/d/1yJm-KTbjOeKqIQ5tP48yw5s_83zxKvthA2Lm_DZ085I/edit?usp=sharing", blank: true },
   // { title: "Tweets", href: "/tweets" },
   // { title: "Inspiration", href: "/inspiration" },
   // { title: "Blog", href: "/blog" },
@@ -61,7 +61,7 @@ export const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
-              target={link.blank ? "_blank" : "_self"}
+              // target={link.blank ? "_blank" : "_self"}
               className={cn(
                 "group relative transition-colors",
                 active
